@@ -1,0 +1,11 @@
+create a node environment  :  npm init -y
+install express nodemon dotenv mongoose
+create .env (donot add and ; or space here) and gitignore file .
+add node_modules and .env inside gitignore
+add require('dotenv').config(); in index.js
+create index.js and require express,initiate express and create and listen PORT 
+add a basic path and try in postman if the app works
+create routes,controller,config,node_model 
+create a folder to connect to mongoose inside config  and import dotenv here . export the connection  function
+import this connection in index.js and also call that function
+create the schema inside model
